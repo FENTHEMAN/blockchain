@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        /* Базовые опции: */
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "target": "es2022",
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "moduleDetection": "force",
+        "isolatedModules": true,
+
+        /* Строгость */
+        "strict": true,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+
+        /* Транспиляция с TypeScript: */
+        "moduleResolution": "NodeNext",
+        "module": "NodeNext",
+        "outDir": "./build",
+        "sourceMap": true,
+
+        /* Запуск кода: */
+        "lib": ["es2022"],
+
+        /* Dev */
+        "paths": {
+            "@/*": ["./src/*"]
+        }
+    }
+}
